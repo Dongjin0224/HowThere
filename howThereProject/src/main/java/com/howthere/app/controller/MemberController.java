@@ -9,11 +9,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 @Slf4j
 @RequiredArgsConstructor
-@RequestMapping("/diary/*")
-public class DiaryController {
-    @GetMapping("list")
-    public void list() {;}
+@RequestMapping("/member/*")
+public class MemberController {
+    @GetMapping("login")
+    public void login() {;}
 
-    @GetMapping("article")
-    public void article() {;}
+    @GetMapping("join")
+    public void join() {;}
 }

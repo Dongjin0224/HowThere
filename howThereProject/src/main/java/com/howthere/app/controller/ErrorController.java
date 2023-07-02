@@ -9,11 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 @Slf4j
 @RequiredArgsConstructor
-@RequestMapping("/diary/*")
-public class DiaryController {
-    @GetMapping("list")
-    public void list() {;}
-
-    @GetMapping("article")
-    public void article() {;}
+@RequestMapping("/error/*")
+public class ErrorController {
+    @GetMapping("error_page")
+    public void errorPage() {;}
 }
